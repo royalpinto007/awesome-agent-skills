@@ -1,0 +1,89 @@
+# Awesome Agent Skills [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
+> A **small, verified, security-aware** list of Agent Skills (the [SKILL.md](https://agentskills.io/specification) format used by Claude Code, Cursor, Codex, and more), curated for trust, not a 1,400-skill dump.
+
+A skill is a folder with a SKILL.md that teaches an agent a workflow. The ecosystem exploded, and so did the risk: a skill is code the agent trusts, and Snyk found prompt injection in **36% of tested skills** while Trail of Bits showed the public scanners are bypassable in under an hour. Most lists optimize for count. This one optimizes for signal: the official sources, a tight set of genuinely useful skills, and a first-class security section the volume lists skip.
+
+**Browse and filter: [agent-skills.agentpostmortem.com](https://agent-skills.agentpostmortem.com)**
+
+## Start here: how to think about skills
+
+- **A skill is untrusted code** until you have read its SKILL.md and any scripts. Treat installing one like adding a dependency, or running a stranger's shell script.
+- **The trigger description is the security boundary.** The model loads a skill based on its description; a poisoned description is how injection gets in.
+- **Scan before you install.** Use a skill scanner (below), and prefer skills from teams you can name.
+- **Author for progressive disclosure.** A good skill keeps SKILL.md short and links out to details the agent pulls only when needed.
+
+**The one rule:** volume is not trust. A verified skill from a known team beats a hundred you have not read.
+
+<!-- LIST:START -->
+**33 entries**, auto-refreshed weekly. Star counts updated **2026-08-01**. Browse the filterable version at **[agent-skills.agentpostmortem.com](https://agent-skills.agentpostmortem.com)**.
+
+### Official and spec
+
+- [anthropics/skills](https://github.com/anthropics/skills) `* 165.5k`: Anthropic's official public repo: production document skills (docx, pdf, pptx, xlsx), a skill template, skill-creator, and the spec.
+- [agentskills/agentskills](https://github.com/agentskills/agentskills) `* 23.7k`: Specification and documentation repository for the open Agent Skills standard.
+- [Agent Skills Specification](https://agentskills.io/specification): The open, vendor-neutral standard for the SKILL.md format, adopted beyond Claude.
+- [Agent Skills overview (Claude docs)](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview): Official docs on what skills are, how discovery and loading works, and how to build them.
+- [Introducing Agent Skills (Anthropic)](https://claude.com/blog/skills): The launch announcement of Agent Skills as an open standard, plus the design deep-dive.
+- [Claude Skills gallery](https://claude.com/skills): Anthropic's official gallery of prebuilt skills (PowerPoint, Excel, Word, PDF, and more).
+
+### Skill collections
+
+- [obra/superpowers](https://github.com/obra/superpowers) `* 264.6k`: Jesse Vincent's agentic skills framework and methodology: a large library of composable skills, in Claude Code's official marketplace.
+- [trailofbits/skills](https://github.com/trailofbits/skills) `* 6.4k`: Trail of Bits' security-research skills for vulnerability detection and audit workflows, installable as a plugin marketplace.
+- [obra/superpowers-marketplace](https://github.com/obra/superpowers-marketplace) `* 1.2k`: Curated Claude Code plugin marketplace for installing the Superpowers skill collections.
+- [getsentry/skills](https://github.com/getsentry/skills) `* 896`: Sentry's official skills, including a skill-scanner for reviewing untrusted skills.
+- [obra/superpowers-skills](https://github.com/obra/superpowers-skills) `* 735`: The community-editable skills library behind the Superpowers plugin.
+- [obra/superpowers-lab](https://github.com/obra/superpowers-lab) `* 403`: Experimental Superpowers skills exploring new techniques for Claude Code.
+- [distro-skills](https://github.com/royalpinto007/distro-skills) `* 0`: 26 Agent Skills that teach an agent to distribute a dev or indie product across GitHub, HN, Reddit, dev.to, and more.
+
+### Coding and review
+
+- [borghei/Claude-Skills](https://github.com/borghei/Claude-Skills) `* 440`: Engineering-focused skill collection including a skill-security-auditor for reviewing code and skills.
+- [superpowers-developing-for-claude-code](https://github.com/obra/superpowers-developing-for-claude-code) `* 134`: Skills that teach an agent to build for and extend Claude Code itself.
+
+### Docs and writing
+
+- [anthropics/skills, docx](https://github.com/anthropics/skills/tree/main/skills/docx): The production Word-document skill that powers Claude's docx creation and editing.
+- [anthropics/skills, document skills](https://github.com/anthropics/skills/tree/main/skills): Source-available PDF, PowerPoint, and Excel skills used in production by Claude.
+
+### Security and validation
+
+- [skill-audit](https://github.com/royalpinto007/Skill-audit) `* 1`: Security scanner for agent skills: 31 rules, prompt-injection and exfiltration detection, SARIF output, npx skill-audit.
+- [Snyk: ToxicSkills study](https://snyk.io/blog/toxicskills-malicious-ai-agent-skills-clawhub/): Research finding prompt injection in 36 percent of tested skills and 1,467 malicious payloads across the skill supply chain.
+- [Trail of Bits: skill distribution](https://blog.trailofbits.com/2026/06/03/the-sorry-state-of-skill-distribution/): Shows every public skill scanner (ClawHub, Cisco skill-scanner, skills.sh) is bypassable in under an hour.
+- [OWASP Agentic Skills Top 10](https://owasp.org/www-project-agentic-skills-top-10/): OWASP project cataloguing the top security risks specific to agent skills.
+- [Sentry skill-scanner](https://github.com/getsentry/skills/blob/main/skills/skill-scanner/SKILL.md): A skill that scans other skills for prompt injection, exfiltration, and dangerous code before install.
+
+### Authoring and validation
+
+- [skill-creator (Anthropic)](https://github.com/anthropics/skills/blob/main/skill-creator/SKILL.md): Official meta-skill that interviews you, writes a SKILL.md with good trigger descriptions, and packages a skill bundle.
+- [ComposioHQ skill-creator](https://github.com/ComposioHQ/awesome-claude-skills/blob/master/skill-creator/SKILL.md): Modular authoring framework for designing, refactoring, and packaging skills with progressive disclosure.
+- [skillsbench](https://deepwiki.com/benchflow-ai/skillsbench): Benchmark plus skill creation and validation tooling for evaluating skill quality.
+
+### Marketplaces and directories
+
+- [claudemarketplaces.com](https://claudemarketplaces.com/): Directory of Claude Code skills, plugins, and MCP servers with thousands of registered marketplaces.
+- [LobeHub Skills](https://lobehub.com/skills): Cross-agent skills marketplace (Claude Code, Codex CLI, ChatGPT) built on the open SKILL.md format.
+- [agentskill.sh](https://agentskill.sh/): Skills directory with one-command install across Claude Code, Cursor, Copilot, Codex, Windsurf, Zed, and more.
+
+### Guides
+
+- [Simon Willison: skills](https://simonwillison.net/tags/skills/): Ongoing practitioner commentary and worked examples on building and using Agent Skills.
+- [Anthropic Skills explained](https://localskills.sh/blog/anthropic-skills-explained): Explainer walking through the official repo, the docs, and how the format works.
+
+### Related lists
+
+- [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) `* 71.5k`: 1,000-plus production skills and plugins organized by use case, with a skill-creator bundled in-repo.
+- [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) `* 29.4k`: The largest list by reach: 1,400-plus hand-picked skills from real engineering teams, cross-tool.
+- [karanb192/awesome-claude-skills](https://github.com/karanb192/awesome-claude-skills) `* 448`: 50-plus verified skills across 12 categories, actively maintained with verified badges.
+
+<!-- LIST:END -->
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md). Edit `data/tools.json`, run `node scripts/generate.mjs`, open a PR.
+
+## License
+
+[CC0 1.0](LICENSE) (public domain).
