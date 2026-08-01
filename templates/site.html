@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>{{TITLE}}</title>
+<meta name="description" content="{{TAGLINE}}" />
+<style>
+  :root{ --bg:#0b0d10; --panel:#14181d; --panel2:#1b2027; --bd:#262d36; --tx:#e6edf3; --mut:#9aa7b4; --acc:#6ee7b7; --acc2:#38bdf8; --chip:#1f2630; }
+  @media (prefers-color-scheme: light){ :root{ --bg:#f7f8fa; --panel:#fff; --panel2:#f0f2f5; --bd:#e2e6eb; --tx:#0d1117; --mut:#586069; --acc:#059669; --acc2:#0284c7; --chip:#eef1f5; } }
+  *{box-sizing:border-box} html,body{overflow-x:hidden;max-width:100%}
+  body{margin:0;background:var(--bg);color:var(--tx);font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+  a{color:var(--acc2);text-decoration:none} a:hover{text-decoration:underline}
+  .wrap{max-width:1160px;margin:0 auto;padding:clamp(16px,4vw,30px) clamp(14px,4vw,26px) 60px}
+  header h1{margin:0 0 4px;font-size:1.7rem;letter-spacing:-.02em} header h1 .g{color:var(--acc)}
+  header p{margin:0;color:var(--mut)}
+  .top{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;margin-bottom:18px}
+  .ghlink{border:1px solid var(--bd);background:var(--panel);padding:7px 12px;border-radius:8px;color:var(--tx);font-weight:600;font-size:.86rem}
+  .controls{position:sticky;top:0;background:var(--bg);padding:12px 0;z-index:5;border-bottom:1px solid var(--bd);margin-bottom:16px}
+  #q{width:100%;padding:11px 14px;border:1px solid var(--bd);border-radius:10px;background:var(--panel);color:var(--tx);font-size:1rem;outline:none}
+  #q:focus{border-color:var(--acc2)}
+  .chips{display:flex;flex-wrap:wrap;gap:7px;margin-top:11px}
+  .chip{cursor:pointer;border:1px solid var(--bd);background:var(--chip);color:var(--mut);padding:5px 11px;border-radius:999px;font-size:.82rem;user-select:none}
+  .chip.on{background:var(--acc2);border-color:var(--acc2);color:#04121c;font-weight:700}
+  .count{color:var(--mut);font-size:.82rem;margin:6px 2px 14px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,270px),1fr));gap:12px}
+  .card{border:1px solid var(--bd);background:var(--panel);border-radius:12px;padding:14px 15px;display:flex;flex-direction:column;gap:8px}
+  .card:hover{border-color:var(--acc2)}
+  .card .h{display:flex;align-items:center;justify-content:space-between;gap:8px}
+  .card .h a{font-weight:700;font-size:1.02rem;color:var(--tx)}
+  .stars{color:var(--mut);font-size:.8rem;white-space:nowrap}
+  .cat{font-size:.68rem;text-transform:uppercase;letter-spacing:.04em;color:var(--acc);font-weight:700}
+  .desc{color:var(--mut);font-size:.88rem;margin:0}
+  @media (max-width:520px){.top{flex-direction:column;align-items:flex-start}.card{padding:13px}}
+  footer{margin-top:34px;color:var(--mut);font-size:.82rem;text-align:center}
+  .empty{color:var(--mut);padding:40px 0;text-align:center}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <header><h1>{{TITLE}}</h1><p>{{TAGLINE}}</p></header>
+    <a class="ghlink" href="{{GH}}">Star on GitHub</a>
+  </div>
+  <div class="controls">
+    <input id="q" type="search" placeholder="Search..." autocomplete="off" />
+    <div class="chips" id="chips"></div>
+  </div>
+  <div class="count" id="count"></div>
+  <div class="grid" id="grid"></div>
+  <div class="empty" id="empty" hidden>No matches. Try another term, or <a href="{{GH}}#contributing">add it</a>.</div>
+  <footer><span id="updated"></span> &middot; <a href="{{GH}}">Contribute</a> &middot; built by <a href="https://royalpinto007.agentpostmortem.com">Royal Pinto</a></footer>
+</div>
+<script>
+const DATA = /*DATA*/;
+const UPDATED = "/*UPDATED*/";
+const CATS = /*CATS*/;
+let active = "all", q = "";
+const chips = document.getElementById("chips");
+[["all","All"], ...Object.entries(CATS)].forEach(([k,label])=>{
+  const c=document.createElement("span"); c.className="chip"+(k==="all"?" on":""); c.textContent=label; c.dataset.k=k;
+  c.onclick=()=>{active=k;[...chips.children].forEach(x=>x.classList.toggle("on",x.dataset.k===k));render();};
+  chips.appendChild(c);
+});
+const qi=document.getElementById("q"); qi.oninput=()=>{q=qi.value.trim().toLowerCase();render();};
+function kfmt(n){return n==null?"":n>=1000?(n/1000).toFixed(1).replace(/\.0$/,"")+"k":""+n;}
+function render(){
+  const grid=document.getElementById("grid"); grid.innerHTML="";
+  const rows=DATA.filter(t=>{
+    if(active!=="all"&&t.category!==active) return false;
+    if(!q) return true;
+    return (t.name+" "+t.desc+" "+t.category).toLowerCase().includes(q);
+  }).sort((a,b)=>(b.stars||0)-(a.stars||0));
+  document.getElementById("count").textContent=rows.length+" of "+DATA.length+" shown";
+  document.getElementById("empty").hidden=rows.length>0;
+  for(const t of rows){
+    const el=document.createElement("div"); el.className="card";
+    el.innerHTML='<div class="cat">'+(CATS[t.category]||t.category)+'</div>'+
+      '<div class="h"><a href="'+t.url+'" target="_blank" rel="noopener">'+t.name+'</a>'+
+      (t.stars!=null?'<span class="stars">* '+kfmt(t.stars)+'</span>':'')+'</div>'+
+      '<p class="desc">'+t.desc+'</p>';
+    grid.appendChild(el);
+  }
+}
+document.getElementById("updated").textContent = UPDATED ? ("Star counts updated "+UPDATED) : "Community-curated";
+render();
+</script>
+</body>
+</html>
