@@ -87,6 +87,13 @@
     "repo": "royalpinto007/distro-skills"
   },
   {
+    "name": "AgentBody Skills",
+    "url": "https://github.com/agentbody/skills",
+    "category": "collections",
+    "desc": "AgentBody's public skills collection, including X Research for read-only public X/Twitter search, trends, profiles, posts, media, and replies.",
+    "repo": "agentbody/skills"
+  },
+  {
     "name": "superpowers-developing-for-claude-code",
     "url": "https://github.com/obra/superpowers-developing-for-claude-code",
     "category": "coding",

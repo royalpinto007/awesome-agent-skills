@@ -16,7 +16,7 @@ A skill is a folder with a SKILL.md that teaches an agent a workflow. The ecosys
 **The one rule:** volume is not trust. A verified skill from a known team beats a hundred you have not read.
 
 <!-- LIST:START -->
-**33 entries**, auto-refreshed weekly. Star counts updated **2026-08-17**. Browse the filterable version at **[agent-skills.agentpostmortem.com](https://agent-skills.agentpostmortem.com)**.
+**34 entries**, auto-refreshed weekly. Star counts updated **2026-08-17**. Browse the filterable version at **[agent-skills.agentpostmortem.com](https://agent-skills.agentpostmortem.com)**.
 
 ### Official and spec
 
@@ -36,6 +36,7 @@ A skill is a folder with a SKILL.md that teaches an agent a workflow. The ecosys
 - [obra/superpowers-skills](https://github.com/obra/superpowers-skills) `* 737`: The community-editable skills library behind the Superpowers plugin.
 - [obra/superpowers-lab](https://github.com/obra/superpowers-lab) `* 413`: Experimental Superpowers skills exploring new techniques for Claude Code.
 - [distro-skills](https://github.com/royalpinto007/distro-skills) `* 0`: 26 Agent Skills that teach an agent to distribute a dev or indie product across GitHub, HN, Reddit, dev.to, and more.
+- [AgentBody Skills](https://github.com/agentbody/skills): AgentBody's public skills collection, including X Research for read-only public X/Twitter search, trends, profiles, posts, media, and replies.
 
 ### Coding and review
 
