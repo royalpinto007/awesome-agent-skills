@@ -16,7 +16,7 @@ A skill is a folder with a SKILL.md that teaches an agent a workflow. The ecosys
 **The one rule:** volume is not trust. A verified skill from a known team beats a hundred you have not read.
 
 <!-- LIST:START -->
-**33 entries**, auto-refreshed weekly. Star counts updated **2026-08-31**. Browse the filterable version at **[agent-skills.agentpostmortem.com](https://agent-skills.agentpostmortem.com)**.
+**34 entries**, auto-refreshed weekly. Star counts updated **2026-08-31**. Browse the filterable version at **[agent-skills.agentpostmortem.com](https://agent-skills.agentpostmortem.com)**.
 
 ### Official and spec
 
@@ -66,6 +66,7 @@ A skill is a folder with a SKILL.md that teaches an agent a workflow. The ecosys
 - [claudemarketplaces.com](https://claudemarketplaces.com/): Directory of Claude Code skills, plugins, and MCP servers with thousands of registered marketplaces.
 - [LobeHub Skills](https://lobehub.com/skills): Cross-agent skills marketplace (Claude Code, Codex CLI, ChatGPT) built on the open SKILL.md format.
 - [agentskill.sh](https://agentskill.sh/): Skills directory with one-command install across Claude Code, Cursor, Copilot, Codex, Windsurf, Zed, and more.
+- [BulkPublish social media content skills](https://github.com/azeemkafridi/bulkpublish-api/tree/main/skills/social-media-content-skills): Open-source skills for approval-first social content adaptation, scheduling, and publishing through BulkPublish API and MCP.
 
 ### Guides
 
