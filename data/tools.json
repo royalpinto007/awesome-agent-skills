@@ -90,7 +90,14 @@
     "name": "AgentBody Skills",
     "url": "https://github.com/agentbody/skills",
     "category": "collections",
-    "desc": "AgentBody's public skills collection, including X Research for read-only public X/Twitter search, trends, profiles, posts, media, and replies.",
+    "desc": "AgentBody's public skills collection, including X Research for read-only public X/Twitter search, trends, profiles, posts, media, and replies. Requires a commercial AgentBody API key.",
+    "repo": "agentbody/skills"
+  },
+  {
+    "name": "AgentBody Skills",
+    "url": "https://github.com/agentbody/skills",
+    "category": "collections",
+    "desc": "AgentBody's public skills collection, including X Research for read-only public X/Twitter search, trends, profiles, posts, media, and replies. Requires a commercial AgentBody API key.",
     "repo": "agentbody/skills"
   },
   {
@@ -149,6 +156,13 @@
     "category": "security",
     "desc": "Security scanner for agent skills: 31 rules, prompt-injection and exfiltration detection, SARIF output, npx skill-audit.",
     "repo": "royalpinto007/Skill-audit"
+  },
+  {
+    "name": "SecHelix",
+    "repo": "omarmohelal/SecHelix",
+    "url": "https://github.com/omarmohelal/SecHelix",
+    "category": "security",
+    "desc": "Evidence-first AppSec review skill that sends every candidate finding to an independent verifier before reporting it, for developers auditing code they are authorized to test."
   },
   {
     "name": "skill-creator (Anthropic)",
@@ -218,5 +232,12 @@
     "category": "related",
     "desc": "50-plus verified skills across 12 categories, actively maintained with verified badges.",
     "repo": "karanb192/awesome-claude-skills"
+  },
+  {
+    "name": "BulkPublish social media content skills",
+    "url": "https://github.com/azeemkafridi/bulkpublish-api/tree/main/skills/social-media-content-skills",
+    "category": "market",
+    "desc": "Open-source skills for approval-first social content adaptation, scheduling, and publishing through BulkPublish API and MCP.",
+    "repo": "azeemkafridi/bulkpublish-api"
   }
 ]
