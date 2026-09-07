@@ -101,6 +101,13 @@
     "repo": "agentbody/skills"
   },
   {
+    "name": "NotFair Plugin",
+    "repo": "nowork-studio/notfair-plugin",
+    "url": "https://github.com/nowork-studio/notfair-plugin",
+    "category": "collections",
+    "desc": "Open-source SEO, GEO, paid-media, and analytics workflows for AI agents."
+  },
+  {
     "name": "superpowers-developing-for-claude-code",
     "url": "https://github.com/obra/superpowers-developing-for-claude-code",
     "category": "coding",
