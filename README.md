@@ -16,12 +16,12 @@ A skill is a folder with a SKILL.md that teaches an agent a workflow. The ecosys
 **The one rule:** volume is not trust. A verified skill from a known team beats a hundred you have not read.
 
 <!-- LIST:START -->
-**37 entries**, auto-refreshed weekly. Star counts updated **2026-08-31**. Browse the filterable version at **[agent-skills.agentpostmortem.com](https://agent-skills.agentpostmortem.com)**.
+**37 entries**, auto-refreshed weekly. Star counts updated **2026-09-07**. Browse the filterable version at **[agent-skills.agentpostmortem.com](https://agent-skills.agentpostmortem.com)**.
 
 ### Official and spec
 
-- [anthropics/skills](https://github.com/anthropics/skills) `* 172.8k`: Anthropic's official public repo: production document skills (docx, pdf, pptx, xlsx), a skill template, skill-creator, and the spec.
-- [agentskills/agentskills](https://github.com/agentskills/agentskills) `* 24.9k`: Specification and documentation repository for the open Agent Skills standard.
+- [anthropics/skills](https://github.com/anthropics/skills) `* 175k`: Anthropic's official public repo: production document skills (docx, pdf, pptx, xlsx), a skill template, skill-creator, and the spec.
+- [agentskills/agentskills](https://github.com/agentskills/agentskills) `* 25.1k`: Specification and documentation repository for the open Agent Skills standard.
 - [Agent Skills Specification](https://agentskills.io/specification): The open, vendor-neutral standard for the SKILL.md format, adopted beyond Claude.
 - [Agent Skills overview (Claude docs)](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview): Official docs on what skills are, how discovery and loading works, and how to build them.
 - [Introducing Agent Skills (Anthropic)](https://claude.com/blog/skills): The launch announcement of Agent Skills as an open standard, plus the design deep-dive.
@@ -29,20 +29,20 @@ A skill is a folder with a SKILL.md that teaches an agent a workflow. The ecosys
 
 ### Skill collections
 
-- [obra/superpowers](https://github.com/obra/superpowers) `* 279.9k`: Jesse Vincent's agentic skills framework and methodology: a large library of composable skills, in Claude Code's official marketplace.
-- [trailofbits/skills](https://github.com/trailofbits/skills) `* 6.9k`: Trail of Bits' security-research skills for vulnerability detection and audit workflows, installable as a plugin marketplace.
-- [obra/superpowers-marketplace](https://github.com/obra/superpowers-marketplace) `* 1.2k`: Curated Claude Code plugin marketplace for installing the Superpowers skill collections.
-- [getsentry/skills](https://github.com/getsentry/skills) `* 964`: Sentry's official skills, including a skill-scanner for reviewing untrusted skills.
-- [obra/superpowers-skills](https://github.com/obra/superpowers-skills) `* 744`: The community-editable skills library behind the Superpowers plugin.
-- [obra/superpowers-lab](https://github.com/obra/superpowers-lab) `* 422`: Experimental Superpowers skills exploring new techniques for Claude Code.
+- [obra/superpowers](https://github.com/obra/superpowers) `* 282.7k`: Jesse Vincent's agentic skills framework and methodology: a large library of composable skills, in Claude Code's official marketplace.
+- [trailofbits/skills](https://github.com/trailofbits/skills) `* 7k`: Trail of Bits' security-research skills for vulnerability detection and audit workflows, installable as a plugin marketplace.
+- [obra/superpowers-marketplace](https://github.com/obra/superpowers-marketplace) `* 1.3k`: Curated Claude Code plugin marketplace for installing the Superpowers skill collections.
+- [getsentry/skills](https://github.com/getsentry/skills) `* 983`: Sentry's official skills, including a skill-scanner for reviewing untrusted skills.
+- [obra/superpowers-skills](https://github.com/obra/superpowers-skills) `* 745`: The community-editable skills library behind the Superpowers plugin.
+- [obra/superpowers-lab](https://github.com/obra/superpowers-lab) `* 423`: Experimental Superpowers skills exploring new techniques for Claude Code.
+- [AgentBody Skills](https://github.com/agentbody/skills) `* 1`: AgentBody's public skills collection, including X Research for read-only public X/Twitter search, trends, profiles, posts, media, and replies. Requires a commercial AgentBody API key.
+- [AgentBody Skills](https://github.com/agentbody/skills) `* 1`: AgentBody's public skills collection, including X Research for read-only public X/Twitter search, trends, profiles, posts, media, and replies. Requires a commercial AgentBody API key.
 - [distro-skills](https://github.com/royalpinto007/distro-skills) `* 0`: 26 Agent Skills that teach an agent to distribute a dev or indie product across GitHub, HN, Reddit, dev.to, and more.
-- [AgentBody Skills](https://github.com/agentbody/skills): AgentBody's public skills collection, including X Research for read-only public X/Twitter search, trends, profiles, posts, media, and replies. Requires a commercial AgentBody API key.
-- [AgentBody Skills](https://github.com/agentbody/skills): AgentBody's public skills collection, including X Research for read-only public X/Twitter search, trends, profiles, posts, media, and replies. Requires a commercial AgentBody API key.
 
 ### Coding and review
 
-- [borghei/Claude-Skills](https://github.com/borghei/Claude-Skills) `* 658`: Engineering-focused skill collection including a skill-security-auditor for reviewing code and skills.
-- [superpowers-developing-for-claude-code](https://github.com/obra/superpowers-developing-for-claude-code) `* 139`: Skills that teach an agent to build for and extend Claude Code itself.
+- [borghei/Claude-Skills](https://github.com/borghei/Claude-Skills) `* 718`: Engineering-focused skill collection including a skill-security-auditor for reviewing code and skills.
+- [superpowers-developing-for-claude-code](https://github.com/obra/superpowers-developing-for-claude-code) `* 140`: Skills that teach an agent to build for and extend Claude Code itself.
 
 ### Docs and writing
 
@@ -52,11 +52,11 @@ A skill is a folder with a SKILL.md that teaches an agent a workflow. The ecosys
 ### Security and validation
 
 - [skill-audit](https://github.com/royalpinto007/Skill-audit) `* 1`: Security scanner for agent skills: 31 rules, prompt-injection and exfiltration detection, SARIF output, npx skill-audit.
+- [SecHelix](https://github.com/omarmohelal/SecHelix) `* 1`: Evidence-first AppSec review skill that sends every candidate finding to an independent verifier before reporting it, for developers auditing code they are authorized to test.
 - [Snyk: ToxicSkills study](https://snyk.io/blog/toxicskills-malicious-ai-agent-skills-clawhub/): Research finding prompt injection in 36 percent of tested skills and 1,467 malicious payloads across the skill supply chain.
 - [Trail of Bits: skill distribution](https://blog.trailofbits.com/2026/06/03/the-sorry-state-of-skill-distribution/): Shows every public skill scanner (ClawHub, Cisco skill-scanner, skills.sh) is bypassable in under an hour.
 - [OWASP Agentic Skills Top 10](https://owasp.org/www-project-agentic-skills-top-10/): OWASP project cataloguing the top security risks specific to agent skills.
 - [Sentry skill-scanner](https://github.com/getsentry/skills/blob/main/skills/skill-scanner/SKILL.md): A skill that scans other skills for prompt injection, exfiltration, and dangerous code before install.
-- [SecHelix](https://github.com/omarmohelal/SecHelix): Evidence-first AppSec review skill that sends every candidate finding to an independent verifier before reporting it, for developers auditing code they are authorized to test.
 
 ### Authoring and validation
 
@@ -66,10 +66,10 @@ A skill is a folder with a SKILL.md that teaches an agent a workflow. The ecosys
 
 ### Marketplaces and directories
 
+- [BulkPublish social media content skills](https://github.com/azeemkafridi/bulkpublish-api/tree/main/skills/social-media-content-skills) `* 1`: Open-source skills for approval-first social content adaptation, scheduling, and publishing through BulkPublish API and MCP.
 - [claudemarketplaces.com](https://claudemarketplaces.com/): Directory of Claude Code skills, plugins, and MCP servers with thousands of registered marketplaces.
 - [LobeHub Skills](https://lobehub.com/skills): Cross-agent skills marketplace (Claude Code, Codex CLI, ChatGPT) built on the open SKILL.md format.
 - [agentskill.sh](https://agentskill.sh/): Skills directory with one-command install across Claude Code, Cursor, Copilot, Codex, Windsurf, Zed, and more.
-- [BulkPublish social media content skills](https://github.com/azeemkafridi/bulkpublish-api/tree/main/skills/social-media-content-skills): Open-source skills for approval-first social content adaptation, scheduling, and publishing through BulkPublish API and MCP.
 
 ### Guides
 
@@ -78,9 +78,9 @@ A skill is a folder with a SKILL.md that teaches an agent a workflow. The ecosys
 
 ### Related lists
 
-- [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) `* 74.1k`: 1,000-plus production skills and plugins organized by use case, with a skill-creator bundled in-repo.
-- [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) `* 33.5k`: The largest list by reach: 1,400-plus hand-picked skills from real engineering teams, cross-tool.
-- [karanb192/awesome-claude-skills](https://github.com/karanb192/awesome-claude-skills) `* 503`: 50-plus verified skills across 12 categories, actively maintained with verified badges.
+- [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) `* 74.6k`: 1,000-plus production skills and plugins organized by use case, with a skill-creator bundled in-repo.
+- [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) `* 33.9k`: The largest list by reach: 1,400-plus hand-picked skills from real engineering teams, cross-tool.
+- [karanb192/awesome-claude-skills](https://github.com/karanb192/awesome-claude-skills) `* 507`: 50-plus verified skills across 12 categories, actively maintained with verified badges.
 
 <!-- LIST:END -->
 
