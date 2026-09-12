@@ -246,5 +246,12 @@
     "category": "market",
     "desc": "Open-source skills for approval-first social content adaptation, scheduling, and publishing through BulkPublish API and MCP.",
     "repo": "azeemkafridi/bulkpublish-api"
+  },
+  {
+    "name": "OrkasVideoStudio",
+    "repo": "Orkas-AI/Orkas-VideoStudio",
+    "url": "https://github.com/Orkas-AI/Orkas-VideoStudio",
+    "category": "collections",
+    "desc": "MIT-licensed, local-first TypeScript CLI and MCP toolkit for coding agents to compose, edit, generate, and assemble videos from editable plan.json timelines."
   }
 ]
