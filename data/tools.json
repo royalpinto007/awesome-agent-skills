@@ -241,6 +241,13 @@
     "repo": "karanb192/awesome-claude-skills"
   },
   {
+    "name": "mblode/agent-skills",
+    "url": "https://github.com/mblode/agent-skills",
+    "category": "related",
+    "desc": "26 agent skills for UI audits, typography, docs, PR review, and releases; installable via the skills CLI.",
+    "repo": "mblode/agent-skills"
+  },
+  {
     "name": "BulkPublish social media content skills",
     "url": "https://github.com/azeemkafridi/bulkpublish-api/tree/main/skills/social-media-content-skills",
     "category": "market",
