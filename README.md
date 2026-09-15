@@ -16,7 +16,7 @@ A skill is a folder with a SKILL.md that teaches an agent a workflow. The ecosys
 **The one rule:** volume is not trust. A verified skill from a known team beats a hundred you have not read.
 
 <!-- LIST:START -->
-**39 entries**, auto-refreshed weekly. Star counts updated **2026-09-14**. Browse the filterable version at **[agent-skills.agentpostmortem.com](https://agent-skills.agentpostmortem.com)**.
+**40 entries**, auto-refreshed weekly. Star counts updated **2026-09-14**. Browse the filterable version at **[agent-skills.agentpostmortem.com](https://agent-skills.agentpostmortem.com)**.
 
 ### Official and spec
 
@@ -83,6 +83,7 @@ A skill is a folder with a SKILL.md that teaches an agent a workflow. The ecosys
 - [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) `* 75k`: 1,000-plus production skills and plugins organized by use case, with a skill-creator bundled in-repo.
 - [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) `* 34.3k`: The largest list by reach: 1,400-plus hand-picked skills from real engineering teams, cross-tool.
 - [karanb192/awesome-claude-skills](https://github.com/karanb192/awesome-claude-skills) `* 512`: 50-plus verified skills across 12 categories, actively maintained with verified badges.
+- [mblode/agent-skills](https://github.com/mblode/agent-skills): 26 agent skills for UI audits, typography, docs, PR review, and releases; installable via the skills CLI.
 
 <!-- LIST:END -->
 
