@@ -16,7 +16,7 @@ A skill is a folder with a SKILL.md that teaches an agent a workflow. The ecosys
 **The one rule:** volume is not trust. A verified skill from a known team beats a hundred you have not read.
 
 <!-- LIST:START -->
-**39 entries**, auto-refreshed weekly. Star counts updated **2026-09-14**. Browse the filterable version at **[agent-skills.agentpostmortem.com](https://agent-skills.agentpostmortem.com)**.
+**40 entries**, auto-refreshed weekly. Star counts updated **2026-09-14**. Browse the filterable version at **[agent-skills.agentpostmortem.com](https://agent-skills.agentpostmortem.com)**.
 
 ### Official and spec
 
@@ -40,6 +40,7 @@ A skill is a folder with a SKILL.md that teaches an agent a workflow. The ecosys
 - [AgentBody Skills](https://github.com/agentbody/skills) `* 1`: AgentBody's public skills collection, including X Research for read-only public X/Twitter search, trends, profiles, posts, media, and replies. Requires a commercial AgentBody API key.
 - [AgentBody Skills](https://github.com/agentbody/skills) `* 1`: AgentBody's public skills collection, including X Research for read-only public X/Twitter search, trends, profiles, posts, media, and replies. Requires a commercial AgentBody API key.
 - [distro-skills](https://github.com/royalpinto007/distro-skills) `* 0`: 26 Agent Skills that teach an agent to distribute a dev or indie product across GitHub, HN, Reddit, dev.to, and more.
+- [Hyperconsciousness skills](https://github.com/louis030195/hyperconsciousness/tree/main/skills): Developer-alpha skills for local knowledge discovery and grant-scoped encrypted store operations, with installation support for Claude Code, Codex, Hermes and pi.
 
 ### Coding and review
 

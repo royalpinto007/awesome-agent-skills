@@ -253,5 +253,12 @@
     "url": "https://github.com/Orkas-AI/Orkas-VideoStudio",
     "category": "collections",
     "desc": "MIT-licensed, local-first TypeScript CLI and MCP toolkit for coding agents to compose, edit, generate, and assemble videos from editable plan.json timelines."
+  },
+  {
+    "name": "Hyperconsciousness skills",
+    "repo": "louis030195/hyperconsciousness",
+    "url": "https://github.com/louis030195/hyperconsciousness/tree/main/skills",
+    "category": "collections",
+    "desc": "Developer-alpha skills for local knowledge discovery and grant-scoped encrypted store operations, with installation support for Claude Code, Codex, Hermes and pi."
   }
 ]
