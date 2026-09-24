@@ -108,6 +108,13 @@
     "desc": "Open-source SEO, GEO, paid-media, and analytics workflows for AI agents."
   },
   {
+    "name": "vostride/agent-qa skills",
+    "repo": "vostride/agent-qa",
+    "url": "https://github.com/vostride/agent-qa/tree/main/skills",
+    "category": "collections",
+    "desc": "Three Agent Skills for authoring QA tests, debugging failures, and triaging results in web and mobile app testing."
+  },
+  {
     "name": "superpowers-developing-for-claude-code",
     "url": "https://github.com/obra/superpowers-developing-for-claude-code",
     "category": "coding",
