@@ -16,7 +16,7 @@ A skill is a folder with a SKILL.md that teaches an agent a workflow. The ecosys
 **The one rule:** volume is not trust. A verified skill from a known team beats a hundred you have not read.
 
 <!-- LIST:START -->
-**41 entries**, auto-refreshed weekly. Star counts updated **2026-09-28**. Browse the filterable version at **[agent-skills.agentpostmortem.com](https://agent-skills.agentpostmortem.com)**.
+**42 entries**, auto-refreshed weekly. Star counts updated **2026-09-28**. Browse the filterable version at **[agent-skills.agentpostmortem.com](https://agent-skills.agentpostmortem.com)**.
 
 ### Official and spec
 
@@ -47,6 +47,7 @@ A skill is a folder with a SKILL.md that teaches an agent a workflow. The ecosys
 
 - [borghei/Claude-Skills](https://github.com/borghei/Claude-Skills) `* 848`: Engineering-focused skill collection including a skill-security-auditor for reviewing code and skills.
 - [superpowers-developing-for-claude-code](https://github.com/obra/superpowers-developing-for-claude-code) `* 142`: Skills that teach an agent to build for and extend Claude Code itself.
+- [orca-replay](https://github.com/Continuum-AI-Corp/OrcaReplay/tree/main/skills/orca-replay): Teaches an agent to answer questions about an earlier run from its recording instead of from memory, and to replay or fork that run, for developers debugging why a past session did what it did.
 
 ### Docs and writing
 

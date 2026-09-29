@@ -129,6 +129,13 @@
     "repo": "borghei/Claude-Skills"
   },
   {
+    "name": "orca-replay",
+    "url": "https://github.com/Continuum-AI-Corp/OrcaReplay/tree/main/skills/orca-replay",
+    "category": "coding",
+    "desc": "Teaches an agent to answer questions about an earlier run from its recording instead of from memory, and to replay or fork that run, for developers debugging why a past session did what it did.",
+    "repo": "Continuum-AI-Corp/OrcaReplay"
+  },
+  {
     "name": "anthropics/skills, docx",
     "url": "https://github.com/anthropics/skills/tree/main/skills/docx",
     "category": "docs",
