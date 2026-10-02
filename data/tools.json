@@ -274,5 +274,12 @@
     "url": "https://github.com/louis030195/hyperconsciousness/tree/main/skills",
     "category": "collections",
     "desc": "Developer-alpha skills for local knowledge discovery and grant-scoped encrypted store operations, with installation support for Claude Code, Codex, Hermes and pi."
+  },
+  {
+    "name": "alapha888/agent-skills-en",
+    "url": "https://github.com/alapha888/agent-skills-en",
+    "category": "collections",
+    "desc": "Five MIT-licensed productivity skills for AI coding agents: meeting notes, code review checklist, deep research framework, tech writing proofread, and git commit messages.",
+    "repo": "alapha888/agent-skills-en"
   }
 ]
