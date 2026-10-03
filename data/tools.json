@@ -281,5 +281,12 @@
     "category": "collections",
     "desc": "Five MIT-licensed productivity skills for AI coding agents: meeting notes, code review checklist, deep research framework, tech writing proofread, and git commit messages.",
     "repo": "alapha888/agent-skills-en"
+  },
+  {
+    "name": "LogNorm",
+    "url": "https://github.com/lognorm/lognorm-mcp/tree/main/skills/lognorm",
+    "category": "collections",
+    "desc": "Work a site's SEO and AI-visibility (GEO) backlog through the hosted LogNorm MCP server: audits, fixes, content, AI-answer tracking. Needs a LogNorm account (free plan available).",
+    "repo": "lognorm/lognorm-mcp"
   }
 ]
