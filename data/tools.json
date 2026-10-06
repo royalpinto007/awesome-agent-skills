@@ -295,5 +295,12 @@
     "category": "collections",
     "desc": "Work a site's SEO and AI-visibility (GEO) backlog through the hosted LogNorm MCP server: audits, fixes, content, AI-answer tracking. Needs a LogNorm account (free plan available).",
     "repo": "lognorm/lognorm-mcp"
+  },
+  {
+    "name": "Publish with Shipvela",
+    "repo": "stefanautomateed/shipvela-codex",
+    "url": "https://github.com/stefanautomateed/shipvela-codex/tree/main/skills/shipvela-publish",
+    "category": "coding",
+    "desc": "MIT publishing skill for static websites through Shipvela's hosted OAuth MCP service, with owner approval, deployment tracking and build logs; requires an account with a free tier."
   }
 ]
