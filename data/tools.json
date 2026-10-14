@@ -319,5 +319,12 @@
     "url": "https://github.com/Shaisolaris/solaris-dev-shop",
     "category": "collections",
     "desc": "Free MIT skill library whose chief of staff assigns one specialist to a task."
+  },
+  {
+    "name": "looot-skills",
+    "repo": "loootai/looot-skills",
+    "url": "https://github.com/loootai/looot-skills",
+    "category": "collections",
+    "desc": "20 business-data skills (email finding, company and people enrichment, web search, local leads) plus a base skill, backed by the hosted looot MCP server. Needs a looot API key and prepaid balance."
   }
 ]
