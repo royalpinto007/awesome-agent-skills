@@ -319,5 +319,12 @@
     "url": "https://github.com/Shaisolaris/solaris-dev-shop",
     "category": "collections",
     "desc": "Free MIT skill library whose chief of staff assigns one specialist to a task."
+  },
+  {
+    "name": "CareJobs.Now Healthcare Jobs",
+    "repo": "yumaheymans/carejobs-mcp",
+    "url": "https://github.com/yumaheymans/carejobs-mcp",
+    "category": "collections",
+    "desc": "MIT-licensed healthcare-job-search Agent Skill and MCP docs that let an agent answer US healthcare job and posted-pay questions from a free job board read daily, with no API key."
   }
 ]
