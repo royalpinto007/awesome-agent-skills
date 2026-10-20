@@ -193,6 +193,13 @@
     "desc": "Evidence-first AppSec review skill that sends every candidate finding to an independent verifier before reporting it, for developers auditing code they are authorized to test."
   },
   {
+    "name": "Ironheights",
+    "repo": "Frank-Masciopinto/ironheights",
+    "url": "https://github.com/Frank-Masciopinto/ironheights",
+    "category": "security",
+    "desc": "Local pre-install scanner for agent skills (OpenClaw, Claude Code, Codex, Cursor): static rules for prompt injection, hidden text, credential reads and persistence, plus integrity baselines and SARIF output; npx ironheights."
+  },
+  {
     "name": "skill-creator (Anthropic)",
     "url": "https://github.com/anthropics/skills/blob/main/skill-creator/SKILL.md",
     "category": "authoring",

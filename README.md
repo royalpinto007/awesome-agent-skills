@@ -75,6 +75,7 @@ A skill is a folder with a SKILL.md that teaches an agent a workflow. The ecosys
 - [Trail of Bits: skill distribution](https://blog.trailofbits.com/2026/06/03/the-sorry-state-of-skill-distribution/): Shows every public skill scanner (ClawHub, Cisco skill-scanner, skills.sh) is bypassable in under an hour.
 - [OWASP Agentic Skills Top 10](https://owasp.org/www-project-agentic-skills-top-10/): OWASP project cataloguing the top security risks specific to agent skills.
 - [Sentry skill-scanner](https://github.com/getsentry/skills/blob/main/skills/skill-scanner/SKILL.md): A skill that scans other skills for prompt injection, exfiltration, and dangerous code before install.
+- [Ironheights](https://github.com/Frank-Masciopinto/ironheights): Local pre-install scanner for agent skills (OpenClaw, Claude Code, Codex, Cursor): static rules for prompt injection, hidden text, credential reads and persistence, plus integrity baselines and SARIF output; npx ironheights.
 
 ### Authoring and validation
 
