@@ -308,16 +308,27 @@
     "repo": "stefanautomateed/shipvela-codex",
     "url": "https://github.com/stefanautomateed/shipvela-codex/tree/main/skills/shipvela-publish",
     "category": "coding",
-    "desc": "MIT publishing skill for static websites through Shipvela's hosted OAuth MCP service, with owner approval, deployment tracking and build logs; requires an account with a free tier.",
+    "desc": "MIT publishing skill for static websites through Shipvela's hosted OAuth MCP service, with owner approval, deployment tracking and build logs; requires an account with a free tier."
+  },
+  {
     "name": "reverse-engineer-anything (REA)",
     "repo": "morluto/rea",
     "url": "https://github.com/morluto/rea/tree/main/.agents/skills/reverse-engineer-anything",
     "category": "coding",
-    "desc": "Investigate shipped binaries and JavaScript/Electron apps with REA CLI/MCP evidence; install REA separately and bring Hopper, Ghidra, or IDA for deep native analysis.",
+    "desc": "Investigate shipped binaries and JavaScript/Electron apps with REA CLI/MCP evidence; install REA separately and bring Hopper, Ghidra, or IDA for deep native analysis."
+  },
+  {
     "name": "Solaris Dev Shop",
     "repo": "Shaisolaris/solaris-dev-shop",
     "url": "https://github.com/Shaisolaris/solaris-dev-shop",
     "category": "collections",
     "desc": "Free MIT skill library whose chief of staff assigns one specialist to a task."
+  },
+  {
+    "name": "curlshot",
+    "repo": "SergiuPogor/curlshot-mcp",
+    "url": "https://github.com/SergiuPogor/curlshot-mcp/tree/main/skills/curlshot",
+    "category": "coding",
+    "desc": "Teaches an agent to screenshot a public web page, or render its own HTML or Markdown, to PNG, JPEG, WebP, PDF, or a scrolling video through the hosted CurlShot API with curl; needs a CurlShot API key (free plan of 100 screenshots a month, no card)."
   }
 ]

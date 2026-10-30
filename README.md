@@ -16,7 +16,7 @@ A skill is a folder with a SKILL.md that teaches an agent a workflow. The ecosys
 **The one rule:** volume is not trust. A verified skill from a known team beats a hundred you have not read.
 
 <!-- LIST:START -->
-**46 entries**, auto-refreshed weekly. Star counts updated **2026-09-28**. Browse the filterable version at **[agent-skills.agentpostmortem.com](https://agent-skills.agentpostmortem.com)**.
+**50 entries**, auto-refreshed weekly. Star counts updated **2026-09-28**. Browse the filterable version at **[agent-skills.agentpostmortem.com](https://agent-skills.agentpostmortem.com)**.
 
 ### Official and spec
 
@@ -44,11 +44,8 @@ A skill is a folder with a SKILL.md that teaches an agent a workflow. The ecosys
 - [distro-skills](https://github.com/royalpinto007/distro-skills) `* 0`: 26 Agent Skills that teach an agent to distribute a dev or indie product across GitHub, HN, Reddit, dev.to, and more.
 - [alapha888/agent-skills-en](https://github.com/alapha888/agent-skills-en): Five MIT-licensed productivity skills for AI coding agents: meeting notes, code review checklist, deep research framework, tech writing proofread, and git commit messages.
 - [LogNorm](https://github.com/lognorm/lognorm-mcp/tree/main/skills/lognorm): Work a site's SEO and AI-visibility (GEO) backlog through the hosted LogNorm MCP server: audits, fixes, content, AI-answer tracking. Needs a LogNorm account (free plan available).
-<<<<<<< HEAD
-- [Solaris Dev Shop](https://github.com/Shaisolaris/solaris-dev-shop): Free MIT skill library whose chief of staff assigns one specialist to a task.
-=======
 - [Darkmoon pentest skill](https://github.com/ASCIT31/darkmoon-mcp-server/tree/main/plugins/darkmoon/skills/darkmoon-pentest): Skill and MCP plugin to start authorized autonomous AI pentest runs on your own self-hosted Darkmoon Pro, poll them and triage findings. Needs a Darkmoon Pro dashboard; the open source (GPL-3.0) engine alone is not enough.
->>>>>>> origin/main
+- [Solaris Dev Shop](https://github.com/Shaisolaris/solaris-dev-shop): Free MIT skill library whose chief of staff assigns one specialist to a task.
 
 ### Coding and review
 
@@ -56,11 +53,9 @@ A skill is a folder with a SKILL.md that teaches an agent a workflow. The ecosys
 - [superpowers-developing-for-claude-code](https://github.com/obra/superpowers-developing-for-claude-code) `* 142`: Skills that teach an agent to build for and extend Claude Code itself.
 - [orca-replay](https://github.com/Continuum-AI-Corp/OrcaReplay/tree/main/skills/orca-replay): Teaches an agent to answer questions about an earlier run from its recording instead of from memory, and to replay or fork that run, for developers debugging why a past session did what it did.
 - [cloudish](https://github.com/cloudishai/skills/tree/main/skills/cloudish): Teaches an agent to deploy a Dockerfile, source folder, or container image to Cloudish and report the live URL, minting its own API key with no signup, for developers who want their agent to put an app, API, or bot online.
-<<<<<<< HEAD
-- [reverse-engineer-anything (REA)](https://github.com/morluto/rea/tree/main/.agents/skills/reverse-engineer-anything): Investigate shipped binaries and JavaScript/Electron apps with REA CLI/MCP evidence; install REA separately and bring Hopper, Ghidra, or IDA for deep native analysis.
-=======
 - [Publish with Shipvela](https://github.com/stefanautomateed/shipvela-codex/tree/main/skills/shipvela-publish): MIT publishing skill for static websites through Shipvela's hosted OAuth MCP service, with owner approval, deployment tracking and build logs; requires an account with a free tier.
->>>>>>> origin/main
+- [reverse-engineer-anything (REA)](https://github.com/morluto/rea/tree/main/.agents/skills/reverse-engineer-anything): Investigate shipped binaries and JavaScript/Electron apps with REA CLI/MCP evidence; install REA separately and bring Hopper, Ghidra, or IDA for deep native analysis.
+- [curlshot](https://github.com/SergiuPogor/curlshot-mcp/tree/main/skills/curlshot): Teaches an agent to screenshot a public web page, or render its own HTML or Markdown, to PNG, JPEG, WebP, PDF, or a scrolling video through the hosted CurlShot API with curl; needs a CurlShot API key (free plan of 100 screenshots a month, no card).
 
 ### Docs and writing
 
