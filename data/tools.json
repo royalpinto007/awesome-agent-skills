@@ -319,5 +319,12 @@
     "url": "https://github.com/Shaisolaris/solaris-dev-shop",
     "category": "collections",
     "desc": "Free MIT skill library whose chief of staff assigns one specialist to a task."
+  },
+  {
+    "name": "Agent Skills Hub",
+    "url": "https://agentskillshub.top/",
+    "category": "market",
+    "desc": "Open-source index of 267,000+ GitHub skills and MCP servers; 132,000+ carry a security grade from 43 published rules.",
+    "repo": "zhuyansen/agent-skills-hub"
   }
 ]
