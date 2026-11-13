@@ -308,16 +308,32 @@
     "repo": "stefanautomateed/shipvela-codex",
     "url": "https://github.com/stefanautomateed/shipvela-codex/tree/main/skills/shipvela-publish",
     "category": "coding",
-    "desc": "MIT publishing skill for static websites through Shipvela's hosted OAuth MCP service, with owner approval, deployment tracking and build logs; requires an account with a free tier.",
+    "desc": "MIT publishing skill for static websites through Shipvela's hosted OAuth MCP service, with owner approval, deployment tracking and build logs; requires an account with a free tier."
+  },
+  {
     "name": "reverse-engineer-anything (REA)",
     "repo": "morluto/rea",
     "url": "https://github.com/morluto/rea/tree/main/.agents/skills/reverse-engineer-anything",
     "category": "coding",
-    "desc": "Investigate shipped binaries and JavaScript/Electron apps with REA CLI/MCP evidence; install REA separately and bring Hopper, Ghidra, or IDA for deep native analysis.",
+    "desc": "Investigate shipped binaries and JavaScript/Electron apps with REA CLI/MCP evidence; install REA separately and bring Hopper, Ghidra, or IDA for deep native analysis."
+  },
+  {
     "name": "Solaris Dev Shop",
     "repo": "Shaisolaris/solaris-dev-shop",
     "url": "https://github.com/Shaisolaris/solaris-dev-shop",
     "category": "collections",
     "desc": "Free MIT skill library whose chief of staff assigns one specialist to a task."
+  },
+  {
+    "name": "Kling AI Plugin Skill (Global)",
+    "url": "https://www.npmjs.com/package/@klingai/plugin-global",
+    "category": "official",
+    "desc": "Official Global-region image/video generation and task-tracking Skill with a bundled CLI; requires matching regional OAuth accounts and credits."
+  },
+  {
+    "name": "Kling AI Plugin Skill (China)",
+    "url": "https://www.npmjs.com/package/@klingai/plugin-cn",
+    "category": "official",
+    "desc": "Official China-region image/video generation and task-tracking Skill with a bundled CLI; requires matching regional OAuth accounts and credits."
   }
 ]
