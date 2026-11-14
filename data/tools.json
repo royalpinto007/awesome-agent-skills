@@ -319,5 +319,12 @@
     "url": "https://github.com/Shaisolaris/solaris-dev-shop",
     "category": "collections",
     "desc": "Free MIT skill library whose chief of staff assigns one specialist to a task."
+  },
+  {
+    "name": "AIHOT",
+    "url": "https://github.com/KKKKhazix/khazix-skills/tree/main/aihot",
+    "category": "collections",
+    "desc": "Read-only Skill for researching Chinese AI news and reports through the hosted AIHOT service without an API key. External commercial use requires prior written permission.",
+    "repo": "KKKKhazix/khazix-skills"
   }
 ]
